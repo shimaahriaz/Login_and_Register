@@ -6,7 +6,7 @@ This project aims to develop Login, Register, and Forgot Password
 
 ### Login
 
-![Login Page](img/Login.png)
+![Login Page](./Login%20Js/img/Login.png)
 
 The login page allows existing users to enter their credentials and access their accounts.
 
@@ -22,7 +22,7 @@ The login page allows existing users to enter their credentials and access their
 
 ### Register
 
-![Register Page](img/Register.png)
+![Register Page](./Login%20Js/img/Register.png)
 
 The registration page allows new users to create a new account.
 
@@ -38,7 +38,7 @@ The registration page allows new users to create a new account.
 
 ### Forgot Password
 
-![Forgot Password Page](img/Forget-password.png)
+![Forgot Password Page](./Login%20Js/img/Forget-password.png)
 
 The Forgot Password page allows users to reset their password if forgotten.
 
