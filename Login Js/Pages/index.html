@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/all.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div
+          class="col-md-6 col-sm-9 col-xs-10 mx-lg-auto mx-md-0 form padding-form order-md-1 order-sm-3 order-3 mx-auto"
+        >
+          <div class="fxt-content">
+            <a href="./index.html" class="text-decoration-none text-dark logo">
+              <img src="../img/logo-15.png" class="img-fluid margin-bottom" />
+            </a>
+            <div class="form_register">
+              <h3 class="fw-bolder">Register</h3>
+              <p class="text-muted mb-4">Create an account free and enjoy it</p>
+              <form class="">
+                <div class="d-flex justify-content-between">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control text-muted"
+                    id="name"
+                    placeholder="Name"
+                    oninput="validateInput(this, 'name');"
+                  />
+                  <i class="fa-regular fa-user style"></i>
+                </div>
+                <label for="name" class="text-danger" id="error_name"></label>
+                <div class="d-flex justify-content-between">
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Email"
+                    oninput="validateInput(this, 'email');"
+                  />
+                  <i class="fa-regular fa-envelope style"></i>
+                </div>
+                <label for="email" class="text-danger" id="error_email"></label>
+                <div class="d-flex justify-content-between">
+                  <input
+                    type="password"
+                    name="password"
+                    class="form-control"
+                    id="password"
+                    placeholder="password"
+                    oninput="validateInput(this, 'password');"
+                  />
+                  <i class="fa-solid fa-lock style"></i>
+                </div>
+                <label
+                  for="password"
+                  class="text-danger"
+                  id="error_password"
+                ></label>
+                <div class="fw-bold fs-5 text-white mb-5 mt-2">
+                  <button
+                    type="submit"
+                    class="btn register_btn text-white border-0 rounded-2 register"
+                  >
+                    Register
+                  </button>
+                </div>
+              </form>
+              <div class="icons">
+                <ul>
+                  <li>
+                    <i
+                      class="fa-brands fa-facebook-f rounded-circle bg-primary text-white"
+                    ></i>
+                  </li>
+                  <li>
+                    <i
+                      class="fa-brands fa-twitter bg-success rounded-circle text-white"
+                    ></i>
+                  </li>
+                  <li>
+                    <i
+                      class="fa-brands fa-google-plus-g bg-danger rounded-circle text-white"
+                    ></i>
+                  </li>
+                  <li>
+                    <i
+                      class="fa-brands fa-linkedin-in bg-info rounded-circle text-white"
+                    ></i>
+                  </li>
+                  <li>
+                    <i
+                      class="fa-brands fa-pinterest-p bg-danger rounded-circle text-white"
+                    ></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-2 order-1 img-section">
+          <div class="child-section">
+            <h3 class="fw-bold lh-lg">Welcome To xmee</h3>
+            <p>
+              Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion
+              consectetur elit. Vesti at bulum nec odio aea the dumm ipsumm
+              ipsum that dolocons rsus mal suada.
+            </p>
+            <div class="hover">
+              <a
+                href="./login.html"
+                id="loginLink"
+                class="text-decoration-none text-white"
+              >
+                <span id="logIn">Log In | </span>
+              </a>
+              <a
+                href="./index.html"
+                id="registerLink"
+                class="text-decoration-none text-white active"
+              >
+                <span id="register" class="ms-2">Register</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>

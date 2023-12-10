@@ -1,0 +1,196 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.w-40
+{
+    width: 70% !important;
+}
+
+.form-control
+{
+    border: none !important;
+    border-bottom: 1px solid #ced4da !important;
+    padding: 10px 30px 10px 0;
+}
+
+.form-control:focus
+{
+    box-shadow: none;
+}
+
+.opacity
+{
+    opacity: .5;
+}
+
+.register_btn
+{
+    background-color: #e9b102;
+    padding: 10px 36px;
+    transition: all 0.3s ease-in-out;
+}
+
+.active
+{
+    color: #e9b102 !important;
+}
+
+.register_btn:hover
+{
+    background-color: #ecb719;
+}
+
+.content
+{
+    padding: 0 100px;
+}
+
+.padding-form
+{
+    padding: 50px 15px 52px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.style
+{
+    position: relative;
+    height: 50px;
+    line-height: 4;
+    right: 20px;
+    opacity: .6;
+}
+
+.content div a
+{
+    transition: all 0.3s ease-in-out;
+}
+
+.content div a:hover
+{
+    color: #dddddd !important;
+}
+
+.icons
+{
+    text-align: center;
+}
+
+li
+{
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.icons i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+}
+
+li i:hover
+{
+    background-color: transparent !important;
+    border: 1px solid red;
+    color: blue !important;
+    color: green;
+}
+
+.margin-bottom
+{
+    margin-bottom: 75px;
+}
+.vh-500
+{
+    min-height: 100vh;
+}
+
+.img-section
+{
+    background: rgba(4, 4, 14, 0.6) url(../img/bg15-r.jpg) no-repeat center center/cover;
+    background-blend-mode:darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px 15px 30px;
+    min-height: 120vh;
+}
+
+.img-section2
+{
+    background: rgba(4, 4, 14, 0.6) url(../img/bg15-l.jpg) no-repeat center center/cover;
+    background-blend-mode:darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px 15px 30px !important;
+    min-height: 100vh;
+}
+
+.child-section
+{
+    max-width: 480px;
+    width: 100%;
+}
+.child-section p
+{
+    margin-bottom: 50px;
+}
+
+.vh-height
+{
+    min-height: 120vh;
+}
+
+.lh-lg
+{
+    font-size: 35px;
+}
+
+.fxt-content
+{
+    max-width: 450px;
+    width: 100%;
+}
+
+@media (min-width: 992px) and (max-width: 1120px) {
+    .content
+    {
+        padding: 0 !important;
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 992px) {
+    .w-40
+    {
+        min-width: 50% !important;
+    }
+    .content
+    {
+        padding: 0 !important;
+         max-width: 450px;
+    }
+    
+}
+
+@media (max-width: 778px) {
+    .form_register
+    {
+        position: relative;
+        top: 16px;
+    }
+}
